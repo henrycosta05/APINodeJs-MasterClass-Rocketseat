@@ -1,0 +1,30 @@
+{
+  "name": "apinodesql",
+  "version": "0.0.1",
+  "description": "api com nodejs e sql da masterclass rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrycosta05/APINodeJs-MasterClass-Rocketseat.git"
+  },
+  "author": "Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrycosta05/APINodeJs-MasterClass-Rocketseat/issues"
+  },
+  "homepage": "https://github.com/henrycosta05/APINodeJs-MasterClass-Rocketseat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.10"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
